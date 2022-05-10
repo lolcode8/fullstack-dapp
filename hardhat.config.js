@@ -21,6 +21,8 @@ module.exports = {
   paths: {
     artifacts: "./src/artifacts",
   },
+  // The networks that you deploy to
+  // The hardhat network is the local network that we develop on
   networks: {
     hardhat: {
       chainId: 1337,
